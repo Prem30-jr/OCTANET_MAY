@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    font-family: 'New Science Semi-bold', sans-serif;
+}
+
+#body {
+    position: relative;
+}
+
+#center-img {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading {
+    text-align: center;
+    color: RGB(85, 85, 85);
+    font-size: 20px;
+}
+
+.heading .para {
+    text-align: center;
+    color: rgb(210, 210, 212); 
+    white-space: pre-line;
+    filter: brightness(100%);
+}
+
+.heading .btn {
+    border-radius: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: #24BAA3;
+    border: #24BAA3;
+    cursor: pointer;
+    padding: 13px 21px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition:  0.5s ease;
+    gap: 10px;
+}
+
+.heading .btn:hover {
+    filter: brightness(110%);
+}
+
+.heading .another-btn {
+    background-color: #6272FF;
+    border: #6272FF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    color: white;
+    padding: 13px 21px;
+    transition: background-color 0.3s ease;
+    gap: 10px;
+}
+
+.heading .another-btn:hover {
+    filter: brightness(110%);
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    margin-left: 460px;
+}
+
+#section .section-para {
+    text-align: center;
+    color: #D2D2D4;
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+#section {
+    text-align: center;
+    color: RGB(85, 85, 85);
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap: 100px;
+
+}
+
+.container img {
+    max-width: 50%;
+    animation: slideInImg 1s ease forwards; 
+    margin-left: 20px;
+    margin-bottom: 210px;
+}
+@keyframes slideInImg {
+    from {
+        margin-left: -50%; 
+    }
+    to {
+        margin-left: 20px; 
+    }
+}
+
+.container .content {
+    flex: 1;
+    margin-bottom: 200px;
+    margin-right: -50%; 
+    animation: slideInContent 1s ease forwards; 
+
+}
+
+@keyframes slideInContent {
+    from {
+        margin-right: -50%; 
+    }
+    to {
+        margin-right: 0; 
+    }
+}
+
+.content .content-para {
+    color: #D2D2D4;
+    white-space: pre-line;
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+.content p {
+    color: #58585A;
+    margin-top: -34px;
+}
+
+#image-contents {
+    text-align: center;
+    color: RGB(85, 85, 85);
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#image-contents .image-para {
+    text-align: center;
+    color: #D2D2D4;
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+#mobile-device {
+    margin-top: 85px;
+}
+#workflow h2 {
+    text-align: center;
+    color: RGB(85, 85, 85);
+    font-size: 30px;
+}
+
+#workflow .workflow-para {
+    text-align: center;
+
+    color: #D2D2D4;
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+
+#features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 300px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature-box i {
+    font-size: 38px;
+
+    color: #24BAA3;
+
+}
+
+.feature-box p {
+    margin-top: 10px;
+    white-space: pre-line;
+    font-size: 20px;
+    color: #58585A;
+
+}
+
+#networks {
+    display: flex;
+    gap: 80px;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#networks img {
+    width: 160px;
+    height: 50px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C4C5C6;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.footer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-list li:hover {
+    color: lightyellow;
+}
+
+#footer img,
+#footer i {
+
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#footer #footer-imageda {
+    margin-left: 200px;
+}
+
+#footer i {
+    font-size: 26px;
+
+}
+
+#face {
+    margin-right: 5px;
+    
+}
+
+.fa-brands fa-twitter {
+    margin-right: 10px;
+    
+}
+
+.fab fa-instagram {
+    margin-right: 20px;
+}
+
+#font-awesome {
+    margin-left: 50px;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.heading, #section, #workflow, #features, #networks, #footer {
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0; 
+}
+
+#section { animation-delay: 0.2s; }
+#workflow { animation-delay: 0.4s; }
+#features { animation-delay: 0.6s; }
+#networks { animation-delay: 0.8s; }
+#footer { animation-delay: 1s; }
+    
